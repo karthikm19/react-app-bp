@@ -1,7 +1,8 @@
-import './App.css';
+import "./App.css";
 
 function App() {
-  return <h1>React app boilerplate</h1>;
+  const name = "Karthik";
+  return <h1 style={{ color: 'green' }}>Hello { name }!</h1>;
 }
 
 export default App;
